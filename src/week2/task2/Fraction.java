@@ -57,9 +57,4 @@ public class Fraction {
         }
         return false;
     }
-    public static void main(String[] args){
-        Fraction a = new Fraction(3,5);
-        Fraction b = new Fraction(6,9); 
-        Fraction c = new Fraction(10,12);
-    }
 }
