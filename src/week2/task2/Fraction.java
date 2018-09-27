@@ -49,10 +49,13 @@ public class Fraction {
         return divide;
 
     }
-    public boolean equals(Fraction obj)
+    public boolean equals(Object obj)
     {
         Fraction a = (Fraction) obj;
-        return (numerator*a.denominator == a.numerator*denominator);
+        if (this.numerator*a.denominator == a.numerator*this.denominator){
+            return true;
+        }
+        return false;
     }
     public static void main(String[] args){
         Fraction a = new Fraction(3,5);
