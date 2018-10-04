@@ -6,11 +6,11 @@ public class Week3Test {
     // TODO: Viết 5 testcase cho phương thức max()
     @Test
     public void testMax(){
-        Assert.assertEquals(4, Week3.max(2,4));
-        Assert.assertEquals(27, Week3.max(10,27));
-        Assert.assertEquals(270, Week3.max(30,270));
-        Assert.assertEquals(6789, Week3.max(1245,6789));
-        Assert.assertEquals(2730, Week3.max(10,2730));    
+        Assert.assertEquals(4, Week3.Max(2,4));
+        Assert.assertEquals(27, Week3.Max(10,27));
+        Assert.assertEquals(270, Week3.Max(30,270));
+        Assert.assertEquals(6789, Week3.Max(1245,6789));
+        Assert.assertEquals(2730, Week3.Max(10,2730));    
     }
 
     // TODO: Viết 5 testcase cho phương thức minOfArray()
