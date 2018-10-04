@@ -27,7 +27,7 @@ public class Week3Test {
 
     // TODO: Viết 5 testcase cho phương thức calculateBMI()
     @Test
-    public void testCaculateBMU(){
+    public void testCaculateBMI(){
         Assert.assertEquals("Thieu can", Week3.calculateBMI(36.2,1.45));
         Assert.assertEquals("Binh thuong", Week3.calculateBMI(52,1.63));
         Assert.assertEquals("Thua can", Week3.calculateBMI(57.5,1.53));
