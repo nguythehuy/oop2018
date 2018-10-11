@@ -15,7 +15,7 @@ public class Week3Test {
 
     // TODO: Viết 5 testcase cho phương thức minOfArray()
     @Test
-    public void testminofarray(){
+    public void testminOfarray(){
         int a1[]={2,4,3,1},a2[]={10,27,30},a3[]={18,57,30,65,78};
         int a4[]={12,35,3,13,7}, a5[]={52,102,27,28};
         Assert.assertEquals(1,Week3.minOfArray(a1));
