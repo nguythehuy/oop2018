@@ -1,6 +1,11 @@
 package week4.task1;
 
 public class Cam extends HoaQua {
+    /**
+    *
+    *Class Cam kế thừa từ class HoaQua
+    *
+    */
     private String xuatXu;
     public String taste;
     public int giaBan;
