@@ -9,6 +9,11 @@ public class Cam extends HoaQua {
     private String xuatXu;
     public String taste;
     public int giaBan;
+    /**
+    *
+    *Getter,Setter cho xuất xứ,vị,giá
+    *
+    */
 
     public void setXuatXu(String xuatXu) {
         this.xuatXu = xuatXu;
