@@ -3,6 +3,11 @@ package week4.task1;
 public class HoaQua {
     private String ngayNhap;
     public int soLuong;
+    /**
+    *
+    *Getter,Setter về ngày nhập và số lượng
+    *
+    */
 
     public void setNgayNhap(String a){
         this.ngayNhap=a;
