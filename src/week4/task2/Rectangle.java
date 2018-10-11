@@ -43,7 +43,7 @@ public class Rectangle extends Shape {
     }
     /**
     *
-    *Tính chu vi
+    *tính chu vi
     *
     */
     public double getPerimeter(){
